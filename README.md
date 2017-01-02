@@ -7,9 +7,12 @@ The project was made in Yii 1.1.17 and PHP 5.6
 
 Database mysql
 
-Databasename yii_test
-Username yii
-Password yii
+Databasename: yii_test
+
+Username: yii
+
+Password: yii
+
 
 For deployment databese:
 > ***protected$ php yiic migrate***
