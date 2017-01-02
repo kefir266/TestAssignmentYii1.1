@@ -10,7 +10,7 @@ Username: yii
 Password: yii
 
 For deployment databese:
-> ***protected$ yicc migrate***
+> ***protected$ php yiic migrate***
 
 [Contents of assignment](https://docs.google.com/document/d/1TCEHAammCv3kxFw_VFzEN9ClWtuXYSu2ffl1ceek6ew/edit#):
 
