@@ -121,7 +121,7 @@ class Tree extends CActiveRecord
 
 			if (is_null($node[$id]['item']->parent_id) || $firstLevel)
 			{
-				$tree[$node[$id]->id] = &$node[$id];
+				$tree[$item->id] = &$node[$id];
 				$firstLevel = false;
 			}
 			else

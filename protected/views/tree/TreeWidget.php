@@ -14,7 +14,6 @@ class TreeWidget extends CWidget
     public $tree;
     public function run()
     {
-        Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl .'/js/eventHandler.js');
         echo $this->_outputNode(current($this->tree));
     }
 
@@ -26,9 +25,9 @@ class TreeWidget extends CWidget
             $liElements .= CHtml::tag('li',[], CHtml::tag('div',[],
                 CHtml::link($item['item']->name,['tree/view&id='.$item['item']->id]).'      '
                 .CHtml::link('add', ['tree/create'],['class' => 'create'])
-                .CHtml::link(Chtml::image('/test/assets/1117ecb1/gridview/view.png'),
+                .CHtml::link(Chtml::image('assets/1117ecb1/gridview/view.png'),
                     ['tree/view&id='.$item['item']->id],['class' => 'view', 'title' => 'View'])
-                .CHtml::link(Chtml::image('/test/assets/1117ecb1/gridview/update.png'),
+                .CHtml::link(Chtml::image('assets/1117ecb1/gridview/update.png'),
                     ['tree/update&id='.$item['item']->id],['class' => 'update', 'title' => 'Update'])
 //                .CHtml::link(Chtml::image('/test/assets/1117ecb1/gridview/delete.png'),
 //                    ['tree/delete&id='.$item['item']->id],[
