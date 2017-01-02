@@ -2,7 +2,7 @@
 Test assignment for broadbandcompare.co.nz
 
 The project was made in Yii 1.1.17 and PHP 5.6
-http://testyii11.dev-int.in.ua/index.php?r=site/index
+[testyii11.dev-int.ua](http://testyii11.dev-int.in.ua/index.php?r=site/index)
 
 Database mysql
 Databasename: yii_test
@@ -10,9 +10,9 @@ Username: yii
 Password: yii
 
 For deployment databese:
-#yicc migrate
+> ***protected$ yicc migrate***
 
-Contents of assignment (https://docs.google.com/document/d/1TCEHAammCv3kxFw_VFzEN9ClWtuXYSu2ffl1ceek6ew/edit#):
+[Contents of assignment](https://docs.google.com/document/d/1TCEHAammCv3kxFw_VFzEN9ClWtuXYSu2ffl1ceek6ew/edit#):
 
 Тестовое задание для соискателей на позицию
 PHP-developer Yii/Yii 2
