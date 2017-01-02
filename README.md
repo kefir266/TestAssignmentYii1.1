@@ -20,7 +20,7 @@ For deployment databese:
 > ***protected$ php yiic migrate***
 
 ---
-[Contents of assignment](https://docs.google.com/document/d/1TCEHAammCv3kxFw_VFzEN9ClWtuXYSu2ffl1ceek6ew/edit#):
+####[Contents of assignment](https://docs.google.com/document/d/1TCEHAammCv3kxFw_VFzEN9ClWtuXYSu2ffl1ceek6ew/edit#):
 
 Тестовое задание для соискателей на позицию
 PHP-developer Yii/Yii 2
