@@ -3,7 +3,7 @@ Test assignment for broadbandcompare.co.nz
 
 The project was made in Yii 1.1.17 and PHP 5.6
 
-** [testyii11.dev-int.ua](http://testyii11.dev-int.in.ua/index.php?r=site/index) **
+ [testyii11.dev-int.ua](http://testyii11.dev-int.in.ua/index.php?r=site/index)
 
 Database mysql
 Databasename: yii_test
