@@ -71,7 +71,7 @@ class TreeController extends Controller
 		{
 			$model->attributes=$_POST['Tree'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('admin_tree'));
 		}
 
 		if (isset($_GET['parent_id']))
@@ -98,7 +98,7 @@ class TreeController extends Controller
 		{
 			$model->attributes=$_POST['Tree'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				$this->redirect(array('admin_tree'));
 		}
 
 		$this->render('update',array(

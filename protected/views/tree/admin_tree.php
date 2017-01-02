@@ -28,7 +28,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Edit Trees</h1>
+<h1>Edit Tree</h1>
 
 <?php $this->widget('application.views.tree.TreeWidget',['tree' => $tree]) ?>
 
