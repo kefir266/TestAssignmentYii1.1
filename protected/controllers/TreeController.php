@@ -74,6 +74,9 @@ class TreeController extends Controller
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
+		if (isset($_GET['parent_id']))
+			$model->parent_id = $_GET['parent_id'];
+
 		$this->render('create',array(
 			'model'=>$model,
 		));

@@ -24,7 +24,7 @@ class TreeWidget extends CWidget
         {
             $liElements .= CHtml::tag('li',[], CHtml::tag('div',[],
                 CHtml::link($item['item']->name,['tree/view&id='.$item['item']->id]).'      '
-                .CHtml::link('add', ['tree/create'],['class' => 'create'])
+                .CHtml::link('add', ['tree/create','parent_id' => $item['item']->id],['class' => 'create'])
                 .CHtml::link(Chtml::image('assets/1117ecb1/gridview/view.png'),
                     ['tree/view&id='.$item['item']->id],['class' => 'view', 'title' => 'View'])
                 .CHtml::link(Chtml::image('assets/1117ecb1/gridview/update.png'),
