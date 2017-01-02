@@ -1,0 +1,38 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+# User specific & automatically generated files #
+#################################################
+/app/Config/database.php
+/app/tmp
+/lib/Cake/Console/Templates/skel/tmp/
+/plugins
+/vendors
+/build
+/dist
+/tags
+*.mo
+*.lock
+/advanced/backend/web/img
+/web/assets/
+/advanced/frontend/web/img/uploaded/
+/gitstatistics
+composer.lock
+
+# IDE and editor specific files #
+#################################
+/nbproject
+.idea
+#.htaccess
+/.project
+/.buildpath
+/.settings/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
